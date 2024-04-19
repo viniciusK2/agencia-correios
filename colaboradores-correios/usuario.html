@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/usuario.css">
+    <link rel="stylesheet" href="css/colab.css">
+    <title>Acesso usuário</title>
+</head>
+<body>
+    <header class="cabecalho">
+            <nav class="cabecalho-nav">
+    
+                <h2>Gerente cce 1.0.0</h2 >
+            </nav>
+            
+            <img  src="img/logo-correios.png" alt="logo correios">
+    </header>
+
+    <main class="container">
+        <section id="container-opcoes">
+
+            <div class="container-opcoes__usuario">
+                <p>Vinicius</p>
+                <div class="container-opcoes__imagem">
+                    <img src="img/usuario-1.jpg" alt="Foto do usuário" class="foto-usuario">
+                    <p><a href="#">Alterar perfil</a></p>
+                </div>
+            </div>
+
+            <ul class="dropdown">
+                <li><a href="#">Opções ▼</a>
+                <ul class="dropdown-opcoes">
+                    <li><a href="#">Rastreamanento</a></li>
+                    <li><a href="#">Solicitações</a></li>
+                    <li><a href="#" onclick="botaoColab()">Colaborador</a></li>
+                    <li><a href="#">Compromisso</a></li>
+                </ul>
+                </li>
+            </ul>
+        </section>
+        
+
+
+        <div id="conteudo-colab">
+
+            <h1 class="titulo-principal">Colaboradores</h1>
+
+            <div class="caixa">
+                <div class="caixas-users">
+                    <div class="usuarios">
+
+                        <img src="./img/perfil-exemplo.png"
+                            alt="foto de perfil de exemplo"
+                            class="imagem-perfil-colab">
+
+                        <br>
+
+                        <p>Erick - 0001</p>
+                        <br>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Suspendisse ac neque non lacus
+                            bibendum placerat eget nec massa.
+                        </p>
+
+                    </div>
+
+                    <div class="usuarios">
+
+                        <img src="./img/perfil-exemplo.png"
+                            alt="foto de perfil de exemplo"
+                            class="imagem-perfil-colab">
+
+                        <br>
+
+                        <p>Gabriel - 0002</p>
+                        <br>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Suspendisse ac neque non lacus
+                            bibendum placerat eget nec massa.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="caixas-users">
+                    <div class="usuarios">
+
+                        <img src="./img/perfil-exemplo.png"
+                            alt="foto de perfil de exemplo"
+                            class="imagem-perfil-colab">
+
+                        <br>
+
+                        <p>Caue - 0003</p>
+                        <br>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Suspendisse ac neque non lacus
+                            bibendum placerat eget nec massa.
+                        </p>
+
+                    </div>
+
+                    <div class="usuarios">
+
+                        <img src="./img/perfil-exemplo.png"
+                            alt="foto de perfil de exemplo"
+                            class="imagem-perfil-colab">
+
+                        <br>
+
+                        <p>Vinicius - 0004</p>
+                        <br>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Suspendisse ac neque non lacus
+                            bibendum placerat eget nec massa.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <section class="container-rodape">
+        <a href="#"><img class="container-rodape__logo" src="img/Vector.png" alt="logo fale conosco"></a>
+        <a href="script.php">Ajuda / Fale Conosco</a>
+    </section>
+    <script src="colaboradores.js"></script>
+
+</body>
+</html>

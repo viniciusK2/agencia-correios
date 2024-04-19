@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/correio.css">
+    <script src="https://kit.fontawesome.com/1e6bad9989.js" crossorigin="anonymous"></script>
+    
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/logo-correio4.png" alt="logo">
+    </div>
+    <!--Login-->
+
+    <div class="login-container">
+        <h1>Login</h1>
+        <form>
+            <h4><label for="username">User | Matrícula:</label></h4>
+            <div class="input-group">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <h4><label for="password">Senha:</label></h4>
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <input onclick="entrar()" type="button" value="Entrar" class=" botao-primario" id="button"></input>
+        </form>
+        <a href="pagina-esqueceu-a-senha.html">Esqueceu a senha?</a>
+    </div>
+    <button class="botao botao-secundario"><a href="cadastro.html"> Registre-se</a></button>
+
+    <script src="login.js"></script>
+    <script>
+        
+    </script>
+</body>
+
+</html>

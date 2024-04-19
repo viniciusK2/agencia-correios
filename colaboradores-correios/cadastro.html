@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Correios</title>
+</head>
+<body>
+     <center><img src="img/logo-correio4.png" alt=""></center>
+
+     <br>
+
+    <div class="registro-container">
+        <div class="registro-text">
+            <h1>Registra-se</h1>
+        </div>
+
+        <div class="registro-form">
+           <form action="#" method="get">
+            <table>
+                <tr>
+                    <th>Nome Completo:</th>
+                    <td><input type="text" id="nome" required placeholder="Alberto Cardoso...."></td>
+                </tr>
+                <tr>
+                    <th>Data de Nascimento:</th>
+                    <td><input type="text" required placeholder="DD/MM/AA"></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td><input type="email" required placeholder="exemplto@exemplo.com"></td>
+                </tr>
+                <tr>
+                    <th>Telefone:</th>
+                    <td><input type="tel" required placeholder="(XX) X XXXX-XXXX"></td>
+                </tr>
+                <tr>
+                    <th>CPF/CNPJ:</th>
+                    <td><input type="number" required placeholder="XXX.XXX.XXX-XX"></td>
+                </tr>
+                <tr>
+                    <th>Endereço:</th>
+                    <td><input type="text" required placeholder="Seu endereço....."></td>
+                </tr>
+                <tr>
+                    <th>Senha:</th>
+                    <td><input type="password" required placeholder="Mínimo de 6 caracteres..." pattern="^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$"></td>
+                </tr>
+                <tr>
+                    <th>Confirmar senha:</th>
+                    <td><input type="password" required pattern="^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$"></td>
+                </tr>
+               </table>
+           </form>
+        </div>
+        
+        <br>
+
+        <div class="btn-registro">
+          <input type="submit" onclick="chave()" value="Registrar">
+        </div>
+    </div>
+ 
+
+
+
+
+    <script src="login.js"></script>
+</body>
+</html>
